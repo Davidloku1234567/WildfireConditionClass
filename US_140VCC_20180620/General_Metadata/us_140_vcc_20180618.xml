@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Geological Survey, Customer Service Representative</origin>
+				<pubdate>20161209</pubdate>
+				<pubtime>unknown</pubtime>
+				<title>LANDFIRE.US_140VCC</title>
+				<geoform>raster digital data</geoform>
+				<serinfo>
+					<sername>LANDFIRE Vegetation Condition Class</sername>
+					<issue>LANDFIRE 2014 (lf_1.4.0)</issue>
+				</serinfo>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Broad-scale alterations of historical fire regimes and vegetation dynamics have occurred in many landscapes in the U.S. through the combined influence of land management practices, fire exclusion, ungulate herbivory, insect and disease outbreaks, climate change, and invasion of non-native plant species. The LANDFIRE Program produces maps of simulated historical fire regimes and vegetation conditions using the LANDSUM landscape succession and disturbance dynamics model. The LANDFIRE Program also produces maps of current vegetation and measurements of current vegetation departure from simulated historical reference conditions. These maps support fire and landscape management planning outlined in the goals of the National Fire Plan, Federal Wildland Fire Management Policy, and the Healthy Forests Restoration Act. Data Summary: Vegetation Condition Class (VCC) is a reclassification of the Vegetation Departure layer. Refer to the Data Summary and metadata for the Vegetation Departure layer (VDEP) to review how that data is created. Vegetation Condition Classes are defined in two ways, the original 3 category system from Fire Regime Condition Class (FRCC), and a new 6 category system. For the original 3 category system, the VDEP value is reclassified as follows: Condition Class I: VDEP value from 0 to 33 (Low Departure), Class II: VDEP value between 34 - 66 (Moderate Departure), and Condition Class III: VDEP value from 67 to 100 (High Departure). The new 6 category system is defined to provide more resolution to VCC and be collapsible to the old 3 category system. New VCC categories are defined as follows: Condition Class I.A: VDEP between 0 and 16 (Very Low Departure), Condition Class I.B: VDEP between 17 and 33 (Low to Moderate Departure); Condition Class II.A: VDEP between 34 and 50 (Moderate to Low Departure); Condition Class II.B: VDEP between 51 and 66 (Moderate to High Departure); Condition Class III.A: VDEP between 67 and 83 (High to Moderate Departure), and Condition Class III.B: VDEP between 84 and 100 (High Departure).</abstract>
+			<purpose>LANDFIRE data products are designed to facilitate national- and regional-level strategic planning and reporting of management activities. Data products are created at a 30-meter grid spatial resolution raster data set; however, the applicability of data products varies by location and specific use. Principal purposes of the data products include providing, 1) national-level, landscape-scale geospatial products to support fire and fuels management planning, and, 2) consistent fuels data to support fire planning, analysis, and budgeting to evaluate fire management alternatives. Users are advised to evaluate the data carefully for their applications.</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-127.98775263969655 </westbc>
+				<eastbc>-65.25444546636928 </eastbc>
+				<northbc>51.64968101623376</northbc>
+				<southbc>22.765446426860603</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>GIS</themekey>
+				<themekey>Vegetation Condition Class</themekey>
+				<themekey>United States Forest Service</themekey>
+				<themekey>LF_1.4.0</themekey>
+				<themekey>LANDFIRE 2014</themekey>
+				<themekey>U.S. Geological Survey</themekey>
+				<themekey>USFS</themekey>
+				<themekey>Raster digital data</themekey>
+				<themekey>LANDFIRE</themekey>
+				<themekey>vcc</themekey>
+				<themekey>USGS</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Category</themekt>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+			</theme>
+			<place>
+				<placekt>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard 10-4,): Washington, D.C., National Institute of Standards and Technology</placekt>
+				<placekey>U.S.</placekey>
+				<placekey>US</placekey>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This product is reproduced from geospatial information prepared by the U.S. Department of Agriculture, Forest Service and USGS EROS. By removing the contents of this package or taking receipt of these files via electronic file transfer methods, you understand that the data stored on this media is in draft condition. Represented features may not be in an accurate geographic location. The Forest Service and USGS EROS make no expressed or implied warranty, including warranty of merchantability and fitness, with respect to the character, function, or capabilities of the data or their appropriateness for any user's purposes. The Forest Service and USGS EROS reserve the right to correct, update, modify, or replace this geospatial information without notification.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Wildland Fire Science, Earth Resources Observation and Science Center, U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>47914 252nd Street</address>
+					<city>Sioux Falls</city>
+					<state>SD</state>
+					<postal>57198-0001</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>605/594-6151</cntvoice>
+				<cntfax>605/594-6589</cntfax>
+				<cntemail>helpdesk@landfire.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Data have been collected and analyzed by teams at both USGS EROS, Sioux Falls, SD and at the USFS, Rocky Mountain Research Station, Missoula, MT. Depending on the data set described primary responsibility may reside with USGS EROS or with USFS. Contact information will be listed in the Contact Section and in the Metadata Reference section with regards to the primary responsibility.</datacred>
+		<secinfo>
+			<secsys>None in place</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>If there is ever doubt, contact the appropriate resource staff who has stewardship responsibility and the GIS Coordinator.</sechandl>
+		</secinfo>
+		<native>ESRI ArcMap 10.1</native>
+		<crossref>
+			<citeinfo>
+				<origin>Hann, W.; Shlisky, A.; Havlina, D.; Schon, K.; Barrett, S.; DeMeo, T.; Pohl, K.; Menakis, J.;</origin>
+				<pubdate>20040101</pubdate>
+				<title>Interagency Fire Regime Condition Class Guidebook. Interagency and The Nature Conservancy Fire Regime Condition Class website.</title>
+				<othercit>USDA Forest Service, U.S. Department of the Interior, The Nature Conservancy, and Systems for Environmental Management.</othercit>
+				<onlink>www.frcc.gov</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Metadata updated</procdesc>
+				<procdate>20151207</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>For a detailed definition and discussion on LANDFIRE, refer to https://www.landfire.gov</procdesc>
+				<procdate>20151208</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntorgp>
+						<cntpos>Customer Service Representative</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>47914 252nd Street</address>
+							<address>USGS EROS</address>
+							<city>Sioux Falls</city>
+							<state>SD</state>
+							<postal>57198-0001</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>605/594-6151</cntvoice>
+						<cnttdd>605/594-6933</cnttdd>
+						<cntfax>605/594-6589</cntfax>
+						<cntemail>custserv@usgs.gov</cntemail>
+						<hours>0800 - 1600, CT M-F (-6h CST/-5h CDT GMT)</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>vcc</enttypl>
+				<enttypd>Vegetation Condition Class</enttypd>
+				<enttypds>Landfire</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>ObjectID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Value</attrlabl>
+				<attrdef>Vegetation Condition Class</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Vegetation Condition Class I.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Vegetation Condition Class I.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Vegetation Condition Class II.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Vegetation Condition Class II.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Vegetation Condition Class III.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Vegetation Condition Class III.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>111</edomv>
+						<edomvd>Water</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>112</edomv>
+						<edomvd>Snow  /  Ice</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>120</edomv>
+						<edomvd>Non burnable Urban</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>121</edomv>
+						<edomvd>burnable Urban</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>131</edomv>
+						<edomvd>Barren</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>132</edomv>
+						<edomvd>Sparsely Vegetated</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>180</edomv>
+						<edomvd>Non burnable Agriculture</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>181</edomv>
+						<edomvd>burnable Agriculture</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>New Class / Descrip</attrlabl>
+				<attrdef>Vegetation Condition Class description</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Very Low, Vegetation Departure 0-16%</edomv>
+						<edomvd>VCC I.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Low to Moderate, Vegetation Departure 17-33%</edomv>
+						<edomvd>VCC I.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Moderate to Low, Vegetation Departure 34-50%</edomv>
+						<edomvd>VCC II.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Moderate to High, Vegetation Departure 51-66%</edomv>
+						<edomvd>VCC II.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>High, Vegetation Departure 67-83%</edomv>
+						<edomvd>VCC III.A</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Very High, Vegetation Departure 84-100%</edomv>
+						<edomvd>VCC III.B</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Water</edomv>
+						<edomvd>111</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Snow/Ice</edomv>
+						<edomvd>112</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Non burnable Urban</edomv>
+						<edomvd>120</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Barren</edomv>
+						<edomvd>131</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>burnable Urban</edomv>
+						<edomvd>121</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Barren</edomv>
+						<edomvd>131</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Sparsely Vegetated</edomv>
+						<edomvd>132</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Non burnable Agriculture</edomv>
+						<edomvd>180</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>burnable Agriculture</edomv>
+						<edomvd>181</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Count</attrlabl>
+				<attrdef>Number of pixels</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<udom>number of pixels</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>R</attrlabl>
+				<attrdef>Red color value</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-255</edomv>
+						<edomvd>color value</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>G</attrlabl>
+				<attrdef>Green color value</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-255</edomv>
+						<edomvd>color value</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>B</attrlabl>
+				<attrdef>Blue color value</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-255</edomv>
+						<edomvd>color value</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Red</attrlabl>
+				<attrdef>Red color value/255</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-1</edomv>
+						<edomvd>red value divided by 255</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Green</attrlabl>
+				<attrdef>Green color value/255</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-1</edomv>
+						<edomvd>green value divided by 255</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Blue</attrlabl>
+				<attrdef>Blue color value/255</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0-1</edomv>
+						<edomvd>blue value divided by 255</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Old Class / Descrip</attrlabl>
+				<attrdef>Old Class and Description</attrdef>
+				<attrdefs>LANDFIRE</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Vegetation Condition Class I</edomv>
+						<edomvd>Low Vegetation Departure</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Vegetation Condition Class II</edomv>
+						<edomvd>Moderate Vegetation Departure</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Vegetation Condition Class III</edomv>
+						<edomvd>High Vegetation Departure</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Water</edomv>
+						<edomvd>Water</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Snow / Ice</edomv>
+						<edomvd>Snow / Ice</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Urban</edomv>
+						<edomvd>Urban</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Barren</edomv>
+						<edomvd>Barren</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Sparsely Vegetated</edomv>
+						<edomvd>Sparsely Vegetated</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+					<edom>
+						<edomv>Agriculture</edomv>
+						<edomvd>Agriculture</edomvd>
+						<edomvds>LANDFIRE</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Value	LABEL	DESCRIPTION
+
+VALUE NEW_CLASS  NEW_DESCRIP OLD_CLASS  OLD_DESCRIP
+1 Vegetation Condition Class I.A Very Low, Vegetation Departure 0-16% Vegetation Condition Class I Low Vegetation Departure
+2 Vegetation Condition Class I.B Low to Moderate, Vegetation Departure 17-33% Vegetation Condition Class I Low Vegetation Departure
+3 Vegetation Condition Class II.A Moderate to Low, Vegetation Departure 34-50% Vegetation Condition Class II Moderate Vegetation Departure
+4 Vegetation Condition Class II.B Moderate to High, Vegetation Departure 51-66% Vegetation Condition Class II Moderate Vegetation Departure
+5 Vegetation Condition Class III.A High, Vegetation Departure 67-83% Vegetation Condition Class III High Vegetation Departure
+6 Vegetation Condition Class III.B Very High, Vegetation Departure 84-100% Vegetation Condition Class III High Vegetation Departure
+111 Water Water Water Water
+112 Snow / Ice Snow / Ice Snow / Ice Snow / Ice
+120 Non burnable Urban Non burnable Urban Urban Urban
+121 Burnable Urban Burnable Urban Burnable Urban Burnable Urban
+131 Barren Barren Barren Barren
+132 Sparsely Vegetated Sparsely Vegetated Sparsely Vegetated Sparsely Vegetated
+180 Non burnable Agriculture Non burnable Agriculture Agriculture Agriculture
+181 Burnable Agriculture Burnable Agriculture Burnable Agriculture Burnable Agriculture
+</eaover>
+			<eadetcit>LANDFIRE Vegetation Condition Class</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntpos>Wildland Fire Science, Earth Resources Observation and Science Center, U.S. Geological Survey</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>47914 252nd Street</address>
+					<address>Earth Resources Observation and Science Center</address>
+					<city>Sioux Falls</city>
+					<state>SD</state>
+					<postal>57198-0001</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>605/594-6151</cntvoice>
+				<cntemail>helpdesk@landfire.gov</cntemail>
+				<hours>0800 - 1600, CT M-F (-6h CST/-5h CDT GMT)</hours>
+				<cntinst>The USGS point of contact is for questions relating only to the data display and download from this web site. For questions regarding data content and quality, refer to the original metadata document.</cntinst>
+			</cntinfo>
+		</distrib>
+		<distliab>This product is reproduced from geospatial information prepared by the U.S. Department of Agriculture, Forest Service and USGS EROS. By removing the contents of this package or taking receipt of these files via electronic file transfer methods, you understand that the data stored on this media is in draft condition. Represented features may not be in an accurate geographic location. The Forest Service and USGS EROS make no expressed or implied warranty, including warranty of merchantability and fitness, with respect to the character, function, or capabilities of the data or their appropriateness for any user's purposes. The Forest Service and USGS EROS reserve the right to correct, update, modify, or replace this geospatial information without notification.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Arc Grid</formname>
+					<formvern>ArcGIS 10.x and higher</formvern>
+					<formspec>ASCII</formspec>
+				</digtinfo>
+			</digform>
+			<fees>None</fees>
+			<turnarnd>Variable</turnarnd>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20070201</metd>
+		<metfrd>20120629</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntpos>Customer Service Representative</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>USGS EROS</address>
+					<address>47914 252nd Street</address>
+					<city>Sioux Falls</city>
+					<state>SD</state>
+					<postal>57198-0001</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>605/594-6151</cntvoice>
+				<cnttdd>605/594-6933</cnttdd>
+				<cntfax>605/594-6589</cntfax>
+				<cntemail>helpdesk@landfire.gov</cntemail>
+				<hours>0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+	</metainfo>
+	<Esri><CreaDate>20171012</CreaDate><CreaTime>09440800</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\gs.doi.net\siouxfallssd-n\Science\firesnfs1\Landfire\Distribution\XML_Metadata\_New_Incoming\updated\lf2014\updated\lf_140_vcc_20171004_22</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\Workspace\datalist\metadata\LF2014\c14\LF\FIREREGIME\lf_140_vcc_20171004_22" dest="\\gs.doi.net\siouxfallssd-n\Science\firesnfs1\Landfire\Distribution\XML_Metadata\_New_Incoming\updated\lf2014\updated\lf_140_vcc_20171004_22" date="20171012" time="09440800"></copy></copyHistory></DataProperties></Esri></metadata>
